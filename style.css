@@ -38,3 +38,42 @@ header{
     background: transparent;
     transition: all 0.50s ease;
 }
+.logo{
+    font: 36px;
+    color: var(--text-color);
+    font-weight: 600;
+}
+span{
+    color: var(--main-color);
+}
+.navlist{
+    display: flex;
+}
+.navlist a{
+    font-size: var(--p-font);
+    font-weight: 500;
+    color: var(--other-color);
+    margin-left: 40px;
+    transition: all 0.50s ease;
+}
+.navlist a:hover{
+    color: var(--main-color);
+    text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--text-color);
+}
+#menu-icon{
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
